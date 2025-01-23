@@ -28,3 +28,7 @@ I then sourced the Docker's ROS 2:
 source /opt/ros/humble/setup.sh
 ```
 I then set up a simple clock node using action graphs in Isaac sim, and I was able to echo the /clock topic in ROS 2 inside the container! Moving onto [Multiple Robot ROS2 Navigation](https://docs.omniverse.nvidia.com/isaacsim/latest/ros2_tutorials/tutorial_ros2_multi_navigation.html).
+
+---
+
+Scene generation: [Replicator](https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_getting_started.html)
