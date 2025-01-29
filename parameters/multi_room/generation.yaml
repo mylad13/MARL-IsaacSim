@@ -1,0 +1,27 @@
+tile_size: 5.0
+fixed_prims:
+  - prim_path: /Environment/Sky
+    usd: /NVIDIA/Assets/Skies/Dynamic/CumulusHeavy.usd
+    semantic: sky
+    world_pose:
+      position: [0, 0, 0]
+      orientation: [90, 0, 0]
+cross:
+  usd: omniverse://localhost/Projects/multi_room/room_assets/cross.usd
+  generation:
+    - config: hazards_corridors.yaml
+corridor:
+  usd: omniverse://localhost/Projects/multi_room/room_assets/corridor.usd
+  generation:
+    - config: hazards_corridors.yaml
+corner:
+  usd: omniverse://localhost/Projects/multi_room/room_assets/corner.usd
+  generation:
+    - config: ["None", "obstacle_pile_2.yaml"]
+      weights: [0.7, 0.3]
+dead_end:
+  usd: omniverse://localhost/Projects/multi_room/room_assets/dead_end.usd
+wall:
+  usd: omniverse://localhost/Projects/multi_room/room_assets/wall.usd
+door:
+  usd: omniverse://localhost/Projects/multi_room/room_assets/door.usd

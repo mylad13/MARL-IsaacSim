@@ -1,0 +1,423 @@
+adjacencies:
+- id: cross
+  neighbors:
+  - neighbor_id: wall
+    neighbor_rotation: 0
+    self_rotation: 0
+  - neighbor_id: door
+    neighbor_rotation: 0
+    self_rotation: 3
+  - neighbor_id: cross
+    neighbor_rotation: 1
+    self_rotation: 1
+  - neighbor_id: door
+    neighbor_rotation: 0
+    self_rotation: 0
+  - neighbor_id: cross
+    neighbor_rotation: 3
+    self_rotation: 3
+  - neighbor_id: wall
+    neighbor_rotation: 2
+    self_rotation: 3
+  - neighbor_id: wall
+    neighbor_rotation: 0
+    self_rotation: 2
+  - neighbor_id: wall
+    neighbor_rotation: 0
+    self_rotation: 1
+  - neighbor_id: door
+    neighbor_rotation: 0
+    self_rotation: 2
+  - neighbor_id: cross
+    neighbor_rotation: 0
+    self_rotation: 0
+  - neighbor_id: door
+    neighbor_rotation: 2
+    self_rotation: 3
+  - neighbor_id: wall
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: dead_end
+    neighbor_rotation: 1
+    self_rotation: 3
+  - neighbor_id: door
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: door
+    neighbor_rotation: 0
+    self_rotation: 1
+  - neighbor_id: wall
+    neighbor_rotation: 2
+    self_rotation: 2
+  - neighbor_id: wall
+    neighbor_rotation: 2
+    self_rotation: 1
+  - neighbor_id: door
+    neighbor_rotation: 2
+    self_rotation: 2
+  - neighbor_id: dead_end
+    neighbor_rotation: 1
+    self_rotation: 0
+  - neighbor_id: dead_end
+    neighbor_rotation: 1
+    self_rotation: 1
+  - neighbor_id: dead_end
+    neighbor_rotation: 1
+    self_rotation: 2
+  - neighbor_id: wall
+    neighbor_rotation: 0
+    self_rotation: 3
+  - neighbor_id: door
+    neighbor_rotation: 2
+    self_rotation: 1
+  - neighbor_id: cross
+    neighbor_rotation: 2
+    self_rotation: 2
+- id: dead_end
+  neighbors:
+  - neighbor_id: cross
+    neighbor_rotation: 0
+    self_rotation: 3
+  - neighbor_id: cross
+    neighbor_rotation: 1
+    self_rotation: 3
+  - neighbor_id: cross
+    neighbor_rotation: 2
+    self_rotation: 3
+  - neighbor_id: cross
+    neighbor_rotation: 3
+    self_rotation: 3
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 2
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 1
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 2
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 0
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 1
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: dead_end
+    neighbor_rotation: 2
+    self_rotation: 2
+  - neighbor_id: dead_end
+    neighbor_rotation: 0
+    self_rotation: 0
+  - neighbor_id: dead_end
+    neighbor_rotation: 3
+    self_rotation: 0
+  - neighbor_id: dead_end
+    neighbor_rotation: 0
+    self_rotation: 1
+  - neighbor_id: dead_end
+    neighbor_rotation: 3
+    self_rotation: 1
+  - neighbor_id: dead_end
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: wall
+    neighbor_rotation: 0
+    self_rotation: 1
+  - neighbor_id: dead_end
+    neighbor_rotation: 3
+    self_rotation: 2
+  - neighbor_id: dead_end
+    neighbor_rotation: 2
+    self_rotation: 1
+  - neighbor_id: dead_end
+    neighbor_rotation: 0
+    self_rotation: 2
+- id: door
+  neighbors:
+  - neighbor_id: cross
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: cross
+    neighbor_rotation: 0
+    self_rotation: 2
+  - neighbor_id: cross
+    neighbor_rotation: 3
+    self_rotation: 2
+  - neighbor_id: cross
+    neighbor_rotation: 1
+    self_rotation: 0
+  - neighbor_id: cross
+    neighbor_rotation: 2
+    self_rotation: 2
+  - neighbor_id: cross
+    neighbor_rotation: 0
+    self_rotation: 0
+  - neighbor_id: cross
+    neighbor_rotation: 3
+    self_rotation: 0
+  - neighbor_id: cross
+    neighbor_rotation: 1
+    self_rotation: 2
+  - neighbor_id: corner
+    neighbor_rotation: 1
+    self_rotation: 3
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 1
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 3
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 0
+  - neighbor_id: corner
+    neighbor_rotation: 1
+    self_rotation: 2
+  - neighbor_id: corner
+    neighbor_rotation: 0
+    self_rotation: 1
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 3
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 1
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: corner
+    neighbor_rotation: 0
+    self_rotation: 2
+  - neighbor_id: wall
+    neighbor_rotation: 3
+    self_rotation: 2
+  - neighbor_id: wall
+    neighbor_rotation: 0
+    self_rotation: 0
+  - neighbor_id: wall
+    neighbor_rotation: 3
+    self_rotation: 3
+  - neighbor_id: wall
+    neighbor_rotation: 2
+    self_rotation: 2
+  - neighbor_id: wall
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: wall
+    neighbor_rotation: 1
+    self_rotation: 1
+  - neighbor_id: wall
+    neighbor_rotation: 1
+    self_rotation: 2
+- id: wall
+  neighbors:
+  - neighbor_id: cross
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: cross
+    neighbor_rotation: 0
+    self_rotation: 2
+  - neighbor_id: cross
+    neighbor_rotation: 3
+    self_rotation: 2
+  - neighbor_id: cross
+    neighbor_rotation: 1
+    self_rotation: 0
+  - neighbor_id: cross
+    neighbor_rotation: 2
+    self_rotation: 2
+  - neighbor_id: cross
+    neighbor_rotation: 0
+    self_rotation: 0
+  - neighbor_id: cross
+    neighbor_rotation: 3
+    self_rotation: 0
+  - neighbor_id: cross
+    neighbor_rotation: 1
+    self_rotation: 2
+  - neighbor_id: corner
+    neighbor_rotation: 1
+    self_rotation: 3
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 2
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 1
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 2
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 3
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 0
+  - neighbor_id: corner
+    neighbor_rotation: 0
+    self_rotation: 1
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 3
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 1
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: dead_end
+    neighbor_rotation: 3
+    self_rotation: 2
+  - neighbor_id: wall
+    neighbor_rotation: 3
+    self_rotation: 3
+  - neighbor_id: door
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: door
+    neighbor_rotation: 0
+    self_rotation: 3
+  - neighbor_id: door
+    neighbor_rotation: 1
+    self_rotation: 1
+  - neighbor_id: wall
+    neighbor_rotation: 1
+    self_rotation: 1
+  - neighbor_id: door
+    neighbor_rotation: 3
+    self_rotation: 3
+  - neighbor_id: door
+    neighbor_rotation: 0
+    self_rotation: 1
+  - neighbor_id: door
+    neighbor_rotation: 2
+    self_rotation: 2
+  - neighbor_id: door
+    neighbor_rotation: 0
+    self_rotation: 0
+- id: corner
+  neighbors:
+  - neighbor_id: wall
+    neighbor_rotation: 1
+    self_rotation: 0
+  - neighbor_id: dead_end
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: door
+    neighbor_rotation: 3
+    self_rotation: 0
+  - neighbor_id: corner
+    neighbor_rotation: 3
+    self_rotation: 1
+  - neighbor_id: door
+    neighbor_rotation: 3
+    self_rotation: 1
+  - neighbor_id: wall
+    neighbor_rotation: 1
+    self_rotation: 1
+  - neighbor_id: dead_end
+    neighbor_rotation: 2
+    self_rotation: 1
+  - neighbor_id: door
+    neighbor_rotation: 0
+    self_rotation: 2
+  - neighbor_id: wall
+    neighbor_rotation: 0
+    self_rotation: 0
+  - neighbor_id: door
+    neighbor_rotation: 3
+    self_rotation: 2
+  - neighbor_id: wall
+    neighbor_rotation: 3
+    self_rotation: 0
+  - neighbor_id: corner
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: wall
+    neighbor_rotation: 3
+    self_rotation: 2
+  - neighbor_id: door
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: wall
+    neighbor_rotation: 0
+    self_rotation: 1
+  - neighbor_id: door
+    neighbor_rotation: 1
+    self_rotation: 3
+  - neighbor_id: door
+    neighbor_rotation: 2
+    self_rotation: 1
+  - neighbor_id: wall
+    neighbor_rotation: 3
+    self_rotation: 1
+  - neighbor_id: dead_end
+    neighbor_rotation: 0
+    self_rotation: 0
+  - neighbor_id: wall
+    neighbor_rotation: 2
+    self_rotation: 0
+  - neighbor_id: dead_end
+    neighbor_rotation: 3
+    self_rotation: 0
+  - neighbor_id: wall
+    neighbor_rotation: 1
+    self_rotation: 3
+  - neighbor_id: door
+    neighbor_rotation: 1
+    self_rotation: 0
+  - neighbor_id: corner
+    neighbor_rotation: 0
+    self_rotation: 3
+  - neighbor_id: door
+    neighbor_rotation: 1
+    self_rotation: 1
+  - neighbor_id: wall
+    neighbor_rotation: 2
+    self_rotation: 1
+  - neighbor_id: corner
+    neighbor_rotation: 1
+    self_rotation: 2
+  - neighbor_id: dead_end
+    neighbor_rotation: 3
+    self_rotation: 1
+  - neighbor_id: door
+    neighbor_rotation: 0
+    self_rotation: 3
+  - neighbor_id: dead_end
+    neighbor_rotation: 0
+    self_rotation: 1
+tiles:
+- id: cross
+  weights:
+  - 1
+  - 1
+  - 1
+  - 1
+- id: dead_end
+  weights:
+  - 1
+  - 1
+  - 1
+  - 1
+- id: door
+  weights:
+  - 5
+  - 5
+  - 5
+  - 5
+- id: wall
+  weights:
+  - 2
+  - 2
+  - 2
+  - 2
+- id: corner
+  weights:
+  - 1
+  - 1
+  - 1
+  - 1
